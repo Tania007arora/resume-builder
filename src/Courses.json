@@ -1,0 +1,32 @@
+{
+    "courses":[
+    {
+        "courseName":"BBA",
+        "CourseId":1
+    },
+    {
+        "courseName":"BCA",
+        "CourseId":2
+    },
+    {
+        "courseName":"MCA",
+        "CourseId":3
+    },
+    {
+        "courseName":"BEd",
+        "CourseId":4
+    },
+    {
+        "courseName":"BTech",
+        "CourseId":5
+    },
+    {
+        "courseName":"MTech",
+        "CourseId":6
+    },
+    {
+        "courseName":"MBA",
+        "CourseId":7
+    }
+]
+}

@@ -1,0 +1,32 @@
+1 component personal info
+name
+emailaddress
+linkedin linkedin
+github link
+phone number
+address
+2 component next button click
+education -component based.
+higher to lower,
+higher education
+college name,City,degree(select),major,duration(present or completed)
+add another education-select higher(more than 1),under graduate,10th,12th.
+component-experience
+most recent to older
+employer,job title,city,country,duaration,job description and responsibility, add more experiences
+component-skills
+skills,selectlevel
+component-summary
+1 text box
+component-contact us
+component-navbar-transparent
+Cambria, Calibri, Helvetica, Bookman Old Style. serif and sans-serif fonts
+1.15 line spacing
+all four sides should be 1-inch.
+ALL CAPS.-headings
+add progress loader
+
+give suggestions-remember to include your LinkedIn profile, a professional summary of qualifications or a career objective for a resume.
+
+add interests page
+change summary to objective
