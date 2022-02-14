@@ -20,7 +20,7 @@ export default function Education(props) {
         })
     let [disable, setDisable] = useState(true);
     useEffect(() => {
-        if ((EducationDetails.inputCollege !== "" && EducationDetails.inputState !== "" && EducationDetails.inputDegree !== "" && EducationDetails.startDate !== "") || (educationList && educationList.length > 0)) {
+        if ((EducationDetails.inputCollege !== "" && EducationDetails.inputState !== "" && EducationDetails.inputDegree !== "" && EducationDetails.startDate !== "")) {
             setDisable(false);
         }
         else {
@@ -124,7 +124,7 @@ export default function Education(props) {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        {!EducationDetails.inputCollege && !EducationDetails.inputState && !EducationDetails.inputDegree ?
+                        {disable ?
                             <OverlayTrigger trigger={['hover', 'focus']} placement="right" overlay={
                                 <PopoverSuggestion id="popover-contained">{content}</PopoverSuggestion>
                             }>
